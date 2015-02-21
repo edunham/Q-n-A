@@ -2,6 +2,7 @@
 
 ##Sass cache
 .sass-cache
+*.css.map
 
 ##Ruby gitignore
 *.gem

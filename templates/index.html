@@ -6,11 +6,10 @@
 </head>
 <body>
     <div>
-        <p>Explanation</p>
+        <p>If you think you know the answer, write a brief explanation.  If you don't, check "I don't know"</p>
         <form action='/update' method='post' type='text' name='form' autocomplete='off'>
-            <!--<input type='radio' name='yesno' onclick='document.getElementById("text").disabled = false;'>text-->
-            <input type='text' name='text' id='text'><br>
-            <input type='radio' name='yesno' value='no'>I don't know<br>
+            Explanation: <input type='text' name='text' id='text' size='30'><br><br>
+            <input type='radio' name='yesno' value='no'>I don't know<br><br>
             <input id='submit' type='submit' name='submitbutton' value='Submit'>
         </form>
     </div>
