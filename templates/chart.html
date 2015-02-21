@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Answers</title>
+    <link href='static/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class='answers'>
+        <p>{{ percent }}% ({{ know }} out of {{total}}) said they didn't know</p>
+        <p>Other people said:</p>
+        <ul>
+        {% for answer in answers %}
+            <li><p>{{ answer }}</p></li>
+        {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

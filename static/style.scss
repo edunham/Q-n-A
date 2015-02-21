@@ -18,7 +18,7 @@ div{
     transform: translate(-50%, -50%);
 }
 
-form{
+form, .answers{
     border-radius: 10px;
     padding: 20px;
     background: $prim;
@@ -44,6 +44,16 @@ form{
 p{
     font-family: $sans;
     font-size: 18px;
+    color: $sec;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
 }
 
 

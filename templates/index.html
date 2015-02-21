@@ -3,14 +3,17 @@
 <head>
     <title>Q and A</title>
     <link href='static/style.css' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
 </head>
 <body>
     <div>
         <p>If you think you know the answer, write a brief explanation.  If you don't, check "I don't know"</p>
-        <form action='/update' method='post' type='text' name='form' autocomplete='off'>
-            Explanation: <input type='text' name='text' id='text' size='30'><br><br>
-            <input type='radio' name='yesno' value='no'>I don't know<br><br>
-            <input id='submit' type='submit' name='submitbutton' value='Submit'>
+        <form action='/update' method=post type='text' name='form' autocomplete='off'>
+            Explanation: <input type='text' name=explain id='text' size=30><br><br>
+            <input type='radio' name=know value='know'>I don't know<br><br>
+            <input id='submit' type='submit' name=submitbutton value='Submit'>
         </form>
     </div>
 </body>
