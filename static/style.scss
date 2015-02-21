@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+$prim:#fff;
+$sec:#fff;
+$sans:'Open Sans', sans-serif;
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{   
+    position: absolute;   
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    border: 2px solid black;
+}
+
+p{
+    font-family: $sans;
+    font-size: 18px;
+}
+
+

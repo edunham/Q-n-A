@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q and A</title>
+    <link href='static/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div>
+        <p>Explanation</p>
+        <form action='/update' method='post' type='text' name='form' autocomplete='off'>
+            <p>Text</p>
+            <input type='radio' name='yesno' onclick='document.getElementById("text").disabled = false;'>
+            <input type='text' name='text' id='text'>
+            <p>More text</p>
+            <input type='radio' name='yesno' value='no'>
+            <input id='submit' type='submit' name='submitbutton' value='Submit'>
+        </form>
+    </div>
+</body>
+</html>
